@@ -7,10 +7,10 @@
 # ==========================================================================================
 # VARIABLES & DATA TYPES
 # ==========================================================================================
-name = "Zahra"              # String
-age = 16                    # Integer
-height_cm = 160.5           # Float
-is_student = True           # Boolean
+name = "Alice"              # String
+age = 34                    # Integer
+height_cm = 170.5           # Float
+is_student = False          # Boolean
 print("String:", name)
 print("Integer:", age)
 print("Float:", height_cm)
@@ -1104,3 +1104,4 @@ class ManagedFile:
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         self.file.close()
+
